@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    ul
+        each user in users
+            li
+                strong= user.name
+                p= user.age
+                p Acciones...
